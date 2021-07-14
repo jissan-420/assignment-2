@@ -1,0 +1,183 @@
+/* utilities */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px; 
+}
+
+nav > span > a:hover{
+    background-color: whitesmoke;
+    color: indigo;
+    padding: 10px;
+    
+}
+
+nav a{
+    margin: 0px 36px;
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+.nav-first-style{
+    background-color: #2D25A0;
+    height: 677px;
+    
+}
+
+#title-design{
+    
+    color: #FFFFFF;
+    font-size: 64px;
+    width: 513px;
+    height: 250px;
+    padding-top: 120px;
+    
+}
+
+.banner {
+    position: absolute;
+    width: 556px;
+    height: 438px;
+    left: 1299.01px;
+    top: 153px;
+}
+
+.half-width{
+    display: flex;
+    width: 50%;
+    padding-left: 280px;
+
+}
+
+.watch-style{
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    text-decoration: none;
+    padding: 10px 24px;
+    
+}
+
+.watch-style:hover{
+    background-color: transparent;
+    color: whitesmoke;
+    border: 3px solid white;
+
+}
+
+
+#watch-style-move:hover{
+    transform: scale(0.99);
+        
+}
+
+/* ------------------ 
+Footballers Data 
+--------------------- */
+
+.footballers-part{
+    background-color: #FFFFFF;
+    padding-top: 70px;
+    margin-left: 400px;
+    width: 1000px;
+
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 37px;
+    grid-column-gap: 30px;
+    
+}
+
+.player-card{
+    width: 330px;
+    height: 474px;
+    box-shadow:0px 0px 40px grey;
+    border-radius: 2px;
+}
+
+.player-card img{
+    width: 300px;
+    height: 256px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.player-card p{
+    color:#6C6C6C ;
+}
+
+.player-card h2, p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* Highlights part */
+
+.highlighted{
+    margin-top:200px ;
+    margin-left: 400px;
+}
+
+.manage-width{
+    display: flex;
+    width: 50%;
+    
+}
+
+#title2-design{
+    color: #0A0826;
+    font-size: 64px;
+    width: 513px;
+    height: 250px;
+    
+}
+
+
+.highlight-style{
+    color:white;
+    background-color: darkslategray;
+    text-decoration: none;
+    padding: 10px 24px;
+}
+
+.highlight-pic{
+    width: 567px;
+    height: 427px;
+    
+}
+
+/* --------------
+Footer 
+ ---------------- */
+
+ .logo-decor{
+     display: flex;
+     justify-content: center;
+     width: 484px;
+     height: 110px;
+     margin-left: 700px;
+     margin-top: 152px;
+ }
+
+ .social-icons{
+    margin-left: 900px;
+ }
+
+.social-icons a{
+    padding: 5px;
+    font-size: 1.3em;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
